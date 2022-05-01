@@ -1,0 +1,21 @@
+{
+  "name": "nadall-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass sass/main.scss css/main.css --watch",
+    "ls:start": "live-server --host=0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadall-labs/nadall-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadall-labs/nadall-web/issues"
+  },
+  "homepage": "https://github.com/nadall-labs/nadall-web#readme"
+}

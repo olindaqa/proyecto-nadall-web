@@ -1,0 +1,52 @@
+.develop{
+    h2{
+        text-align: center;
+        margin-top: 6.25rem;
+    }
+    .development{
+        margin-top: 4.5rem;
+        &>div{ 
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.3rem;
+            border-radius: 10px;
+            img{
+                margin: 1rem 0 0 1rem;
+                flex: 0;
+            }
+            h3{
+                text-align: center;
+                padding: 2rem 1rem;
+                flex: 1;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .develop{
+        align-items: center;
+        justify-content: center;
+        h2{
+            margin: 9.37rem 0px 5rem;
+        }
+        .development{
+            display: flex;  
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &>div{       
+                display: block;
+                text-align: center;
+                width: 30%;
+                margin-bottom: 3rem;
+                img{ 
+                    margin: 3rem 0 0;
+                }
+                h3{
+                    margin: 2rem 0 4rem;
+                    width: 100%;
+                }
+            }
+        }        
+    }
+}

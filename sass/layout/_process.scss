@@ -1,0 +1,23 @@
+.process{
+    background: #F5EDCD;
+    padding: 1.5rem 2rem;
+    margin: 5rem -1rem 0 -1rem;
+}
+@media screen and (min-width: 768px){
+    .process{
+         display: flex; 
+         padding: 0 10% 0 10%;  
+         justify-content: space-between;
+         margin: 16rem -7.5rem 0;
+         .left_col{
+             width: 40%;
+         }
+         .right_col{
+             width: 50%;
+         }
+         img{
+             margin-top: -6rem;
+             display: block;
+         }
+    }
+}

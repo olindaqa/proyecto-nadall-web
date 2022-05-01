@@ -1,0 +1,75 @@
+.lets_talk{
+    .close{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1rem;
+    }
+    .btn_content{
+        display: flex;
+        & > button{
+            margin-right: 1rem;
+        }
+        .btn_selectable:hover{
+            background: #F5EDCD;
+            color: #1A0D7C;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .light_message{
+        font-weight: 300;
+        line-height: 1.5rem;
+        color: $color-input;
+    }
+    .light_file{
+        font-weight: 300;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        color: $color-input;
+    }
+    .upload_content{
+        display: flex;
+        .upload_file{
+            margin-left: 1rem;
+        }
+    }
+   .img_lets{
+       display: none;
+   }
+   .btn{
+       margin-bottom: 2rem;
+   }
+}
+
+@media screen and (min-width:768px){
+    .lets_talk{
+        .close{
+            margin-top: 1.5rem;
+        }
+        h2{
+            margin-top: 3rem;
+        }
+        .btn_content{
+            margin-top: 2.5rem;
+            width: 100%;
+            }
+        .cont_lets-img{
+            display: flex;
+            justify-content: space-between;
+            .cont_form{
+                width: 45%;
+            }
+            .img_lets{
+                display: block;
+                margin-top: 4.5rem;
+                width: 45%;
+                img{
+                    width: 90%;
+                }
+            }
+        }
+        .btn{
+            margin-bottom: 13rem;
+        }
+    }
+}

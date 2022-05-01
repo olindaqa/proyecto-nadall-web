@@ -1,0 +1,52 @@
+.we_do_develop{
+    .development{   
+        .web,.android,.ios,.ui_ux,.project,.assurance{
+            border-radius: 10px;
+            &>div{ 
+                display: flex;
+                align-items: flex-start;
+                img{
+                    margin: 1rem 0 0 1rem;
+                    flex: 0;
+                }
+                h3{
+                    text-align: center;
+                    padding: 2rem 1rem 0;
+                    flex: 1;
+                }
+            }
+            p{
+                margin: 0.5rem 0 1.75rem 1.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .we_do_develop{   
+        .development{    
+            display: flex;  
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 5rem 7.5rem 0; 
+            .web,.android,.ios,.ui_ux,.project,.assurance{
+                width: 48%;
+            &>div{       
+                display: block;
+                text-align: left;
+                img{ 
+                    margin: 3rem 0 0 4rem;
+                }
+                h3{
+                    text-align: initial;
+                    margin: 2rem 0 0 4rem;
+                    padding: 0;
+                }
+            }
+            p{
+                margin: 1.5rem 0 7.5rem 4rem;
+              }
+           }        
+        }
+    }
+}

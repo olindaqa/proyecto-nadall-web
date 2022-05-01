@@ -1,0 +1,41 @@
+.benefits{
+    p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    h2{
+        text-align: center;
+    }
+    .icons_row1,.icons_row2,.icons_three{
+        display: flex;
+        justify-content: center;
+        &>div{
+            text-align: center;
+            width: 50%; 
+        }
+        p{
+            margin-top: 2.5rem;
+        }
+    }
+}
+@media screen and (min-width: 768px){
+    .content_benefits{
+        margin-top: 7.5rem;
+    }
+    .content_icons{
+        display: flex;
+        margin-top: 6rem;
+       .icons_row1{
+           width: 45%;
+       }
+       .icons_row2{
+            width: 35%;
+       }
+       .icons_three{
+           width: 20%;
+           .team{
+               width: 100%;
+           }
+       }
+    }
+}

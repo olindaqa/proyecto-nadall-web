@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px){
+    .we_do_banner{
+        .banner{
+            display: flex;
+            justify-content: space-between;
+            .texts{
+                margin-top: 9.4rem;
+                width: 45%;
+            } 
+            .img_banner{
+                width: 55%;
+            }
+        }       
+        .products{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 7.5rem;
+            .dedicated_team,.Product_engineering,.Development{
+               width: 30%; 
+            }
+        }
+    }
+}

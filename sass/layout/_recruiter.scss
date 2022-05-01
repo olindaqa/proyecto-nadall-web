@@ -1,0 +1,29 @@
+.recruiter{
+    h2{
+        text-align: center;
+    }
+}
+.step{
+   & > div{
+    margin-top: 1.5rem;
+   } 
+}
+@media screen and (min-width: 768px){
+    .recruiter{
+        width: 80%;
+        margin: 7.5rem auto 0;
+        .content_step{
+            margin-top: 5.5rem;
+        }
+        .step{
+            display: flex;
+            justify-content: space-between;
+            & > div{
+                width: 40%;
+            }
+        }
+        .step-two{
+            margin-top: 6rem;
+        }
+    }
+}

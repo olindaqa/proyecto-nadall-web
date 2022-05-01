@@ -1,0 +1,16 @@
+.processes{
+    .research,.prototyping,.development,.deliver{
+        padding: 1rem 0 5rem 1rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .processes{
+        margin: 5rem 7.5rem 0;
+        .research,.prototyping,.development,.deliver{
+            padding: 2.5rem 0 5rem 3.75rem;
+            p{
+                width: 55%;
+            }
+        }
+    }
+}

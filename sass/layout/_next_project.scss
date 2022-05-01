@@ -1,0 +1,25 @@
+.next_project{
+    background-color:#F5F8FA;
+    display: flex;
+    margin: 11rem -1rem 0;
+    span{
+        margin: 0 1rem;
+    }
+    .pn{
+        padding: 2rem 0;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: #AEB0C1;
+    }
+    .pn:hover{
+        color:#0E101A ;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .next_project{
+        display: flex;
+        margin: 14.5rem -7.5rem 0;
+    }   
+}

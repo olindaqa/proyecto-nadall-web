@@ -1,0 +1,45 @@
+.cooperation_methods{
+    display: flex;
+    justify-content: space-between;  
+    .product,.service{
+        display: none;
+    }
+    .experts{
+        .glasses{
+            text-align: center;
+            border-radius: 50%;
+            padding: 3rem;
+            width: 10rem; 
+        }
+    }
+}
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    .arrow_icons{
+        display: flex;;
+        justify-content: space-between;
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .cooperation{
+        margin: 0 7.5rem;
+        .cooperation_methods{  
+            .experts,.product,.service{
+                display:inline-block;
+                width: 30%;
+                .glasses,.clock,.message{
+                    text-align: center;
+                    border-radius: 50%;
+                    padding: 3rem;
+                    width: 10rem;
+                }
+            }  
+        }
+    }
+    .arrow{
+        display: none;
+    }
+}         

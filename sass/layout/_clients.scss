@@ -1,0 +1,36 @@
+.clients{
+    text-align: center;
+    h2{
+        margin: 4rem 0 2.6rem;
+    }
+    .logo_client{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        border-top: 1px solid #E6E8F0 ;
+        border-bottom: 1px solid #E6E8F0 ;
+        img{
+            margin: 2rem 0;
+            padding: 0 0.6rem;
+        }
+        .img3,.img4,.img5{
+            display: none;
+        }
+    }
+}
+@media screen and (min-width: 768px){
+    .clients{
+        h2{
+            margin: 9rem 0 5rem;
+        }
+        .logo_client{
+            img{
+                padding: 0;
+                margin: 2.5rem 4.5rem 2.5rem 0;
+            }
+            .img3,.img4,.img5{
+                display: initial;
+            }
+        }
+    }  
+}

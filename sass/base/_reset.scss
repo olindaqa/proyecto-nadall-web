@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+body,p,h1,h2,h3,h4,h5{
+  margin: 0;
+}
+h1,h2,h3,h4,h5{
+  color:$color-title;
+}
+h1{
+  font-family: 'Nexa';
+  font-size: 2.75rem;
+  line-height: 3.5rem;
+}
+h2{
+    font-family: 'Nexa';
+    font-size: 2.125rem;
+    line-height: 2.625rem;  
+}
+h3{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h4{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+h5{
+  font-family: 'Nexa';
+  font-size: 1.5rem;
+  line-height: 2.625;
+}
+p{
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+img{
+  max-width: 100%;
+}
+@media screen and (min-width: 768px){
+  h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+}
+

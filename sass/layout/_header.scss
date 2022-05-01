@@ -1,0 +1,99 @@
+.main_header {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      margin-top: 0.875rem;
+    }
+    .main_menu {
+      position: absolute;
+      display: none;
+      height: 100%;
+      width: 95%;
+      nav {
+          display: block;
+          text-align: center;
+          padding-top: 4rem;
+          background-color: #fff;
+          width: 100%;
+          height: 100%;
+      }
+      .btn_header{
+          display: flex;     
+          justify-content: center;
+          margin-top: 5rem;
+          .btn{
+            width: 50%;
+            color: #0E101A;
+            }
+        }  
+      a,.select {
+        text-decoration: none;
+        color: #AEB0C1;
+        display: block;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+        margin-top: 2rem;
+         &:not(:first-child) {
+           margin-top: 2rem;
+         }
+         .op{
+          border: none;
+          color: #AEB0C1;
+          background-color: transparent;
+        } 
+      }   
+      .close {
+        position: absolute;
+        top: 0.5rem;
+        padding: 0 0.75rem;
+        right: 0;
+      }
+    }
+    .hanburger {
+        display: flex;
+        margin-top: 1.5rem;    
+      }    
+  }
+  
+  @media screen and (min-width: 768px){
+    .main_header {
+        .logo {
+          margin-top: 1rem;
+        }   
+        .hanburger {
+          display: none;
+        }
+        .main_menu {
+          position: static;
+          display: flex;
+          width: auto;
+          nav{
+            height: auto;
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin-right: 0;
+            background-color: transparent;
+          }
+          .select{
+            min-width: 10%;
+          }
+          .btn_header{
+            text-align: center;
+            margin:0 0 0 7.5rem;
+            .btn{
+              width: 100%;
+            }
+        }
+          a,.select {
+            &:not(:first-child) {
+              margin-left: 2.5rem;
+            }
+          }
+          .close {
+            display: none;
+          }
+        }
+      }
+  }

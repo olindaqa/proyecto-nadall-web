@@ -1,0 +1,37 @@
+.values_delivered{
+    background-color: #F5EDCD;
+    margin: 0 -1rem;
+    margin-top: 5rem;
+    img{
+        margin-bottom: -8.5rem;
+    }
+    .paragraph_container{
+        margin: 0 1rem;
+    }
+    .paragraph{
+        & > div{
+            display: flex;
+            margin-top: 1.5rem;
+        }
+        span{
+            color: #EABC07;
+        }
+        p{
+        font-weight: 300; 
+        font-size: 1rem;
+        line-height: 1.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .values_delivered{
+        margin: 0 -7.5rem;
+        margin-top: 9rem;
+        .paragraph_container{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 7.5rem;
+        }
+    }
+}

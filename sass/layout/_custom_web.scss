@@ -1,0 +1,27 @@
+.content_custom_web{
+    & > div{
+        padding: 2.5rem 0;
+    }
+    p{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .content_custom_web{
+        margin-top: 8.5rem;
+        & > div{
+            padding: 3rem 6rem 4rem;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        h2{
+            width: 30%;
+        }
+        p{
+            margin-top: 0;
+            width: 50%;
+        }
+    }
+}
